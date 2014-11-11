@@ -1,0 +1,14 @@
+<head>
+  <title>Meteor AppState Demo</title>
+</head>
+
+<body>
+  {{> loginButtons}}
+  {{> hello}}
+</body>
+
+<template name="hello">
+  <p> Next state is state number {{stateNumber}}.</p>
+  <button id="testPostFromClient">Post State From Client</button>
+  <button id="testPostFromServer">Post State From Server</button>
+</template>
